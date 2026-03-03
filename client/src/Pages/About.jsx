@@ -2,29 +2,29 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
-        About Me
+     <div className='flex flex-col md:flex-row justify-center items-center px-4 gap-4 mt-40  w-full mx-auto overflow-x-hidden'>
+        <img className='w-60 h-60 rounded-full' src="/img.png" alt="" />
+        <div className='flex flex-col md:flex-row gap-4 mx-5'>
+            <div className='flex flex-col gap-2'>
+            <span className='font-bold text-2xl'>About me</span>
+            <p className='font-light text-sm border-t'>I’m a Full-Stack Software Engineer specializing in the<br/> MERN stack (MongoDB, Express.js, React, Node.js).<br/> I build scalable, secure, and high-performance<br/> web applications with a strong focus on clean code, usability, and real-world problem solving.</p>  
+        </div>
+        <hr/>
+        <div className='flex flex-col gap-2'>
+            <span className='font-bold text-2xl'>What i do</span>
+            <p className='font-light text-sm border-t'>Build modern, responsive web applications
 
-I’m a Full-Stack Software Engineer specializing in the MERN stack (MongoDB, Express.js, React, and Node.js). I build scalable, secure, and high-performance web applications with a strong focus on clean code, usability, and real-world problem solving.
+Develop RESTful APIs and backend services<br/>
 
-I enjoy working across the full development lifecycle — from designing intuitive user interfaces to developing robust backend systems and APIs. I pay close attention to performance, security, and maintainability, ensuring that every solution I build is reliable and future-ready.
+Design and optimize databases<br/>
 
-What I Do
+Implement authentication & authorization systems<br/>
 
-Build modern, responsive web applications
-
-Develop RESTful APIs and backend services
-
-Design and optimize databases
-
-Implement authentication & authorization systems
-
-Collaborate, debug, and continuously improve systems
-
-My Approach
-
-I believe great software is built through clarity, consistency, and continuous learning. I’m always exploring new technologies, improving my skills, and writing code that is easy to understand, test, and scale.
+Collaborate, debug, and continuously improve systems<br/></p>  
+        </div>
+        </div>
     </div>
+   
   )
 }
 

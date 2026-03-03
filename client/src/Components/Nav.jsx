@@ -13,7 +13,7 @@ const Nav = () => {
         {
             name:"About",
             icon: <User2 size={20}/>,
-            path: "/"
+            path: "/about"
         }   ,
         {
             name:"Resume",
